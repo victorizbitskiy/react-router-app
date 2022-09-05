@@ -19,6 +19,9 @@ export function About() {
   return (
     <div>
       <h1>[About]</h1>
+      <nav>
+        <Link to="services">Services</Link>
+      </nav>
       <Outlet />
     </div>
   );
